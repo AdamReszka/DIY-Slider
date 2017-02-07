@@ -1,0 +1,45 @@
+html {
+	font-size: 62.5%;
+}
+body {
+	@include lrauto;
+	background-color: $mainbgr;
+}
+.main-cont {
+	width: $cont;
+	height: 108rem;
+	@include zero;
+	background-color: #fff;
+	padding: 0;
+	@include mainshadow;
+	.slider-frame {
+		width: $cont;
+		height: 81.5rem;
+		@include zero;
+		background-color: green;
+		.slider-display {
+			width: $cont;
+			height: 60rem;
+			@include zero;
+			background-color: blue;
+			position: relative;
+			#slid-img-chan {
+				display: block;
+				@include zero;
+				position: relative;
+				z-index: 85;
+				top: 0;
+				left: 0;
+				overflow: hidden;
+				.display-img {
+					margin: 0;
+					display: block;
+					position: relative;
+					left: 0;
+					right: 0;
+					z-index: 90;
+				}
+			}
+		}
+	}
+}
