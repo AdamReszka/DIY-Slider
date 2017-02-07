@@ -18,6 +18,20 @@ body {
   -webkit-box-shadow: 0px 1px 11px 1px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 0px 1px 11px 1px rgba(0, 0, 0, 0.6);
   box-shadow: 0px 1px 11px 1px rgba(0, 0, 0, 0.6); }
+  .main-cont header {
+    width: 120rem;
+    margin: 0;
+    height: 5rem;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .main-cont header .head-title {
+      font-family: 'Pattaya', sans-serif;
+      color: #036369;
+      font-size: 3rem;
+      margin: 0;
+      padding: 0; }
   .main-cont .slider-frame {
     width: 120rem;
     height: 81.5rem;

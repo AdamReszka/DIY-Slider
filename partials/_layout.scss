@@ -13,6 +13,21 @@ body {
 	background-color: #fff;
 	padding: 0;
 	@include mainshadow;
+	header {
+		width: $cont;
+		margin: 0;
+		height: 5rem;
+		background-color: #000;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.head-title {
+			font-family: 'Pattaya', sans-serif;
+			color: $mainbgr;
+			font-size: 3rem;
+			@include zero;
+		}
+	}
 	.slider-frame {
 		width: $cont;
 		height: 81.5rem;
