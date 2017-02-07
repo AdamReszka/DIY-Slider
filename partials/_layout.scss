@@ -64,3 +64,74 @@ body {
 		margin-left: 1.8rem;
 	}
 }
+.previous-next-bar {
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	width: 10rem;
+	height: 60rem;
+}
+.previous {
+	left: 0;
+	background-color: rgba(0,0,0,0.2);
+	@include fading;
+	&:hover {
+		cursor: pointer;
+		background-color: rgba(0,0,0,0.3);
+		font-size: 6.6rem;
+		@include fading;
+	}
+}
+.next {
+	right: 0;
+}
+.fa-chevron-right {
+	@include forchevron;
+	@include fading;
+}
+.chevron-hover:hover {
+	cursor: pointer;
+	@include fading;
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+}
+.fa-chevron-left {
+	@include forchevron;
+	@include fading;
+}
+a {
+	text-align: center;
+}
+.thumb-img {
+	display: block;
+	width: 17.9rem;
+	height: 17.9rem;
+	margin: 0;
+	border-radius: 100%;
+	&:hover {
+		cursor: pointer;
+	}
+}
+#slid-img-chan ul {
+	position: relative;
+	display: block;
+	height: 60rem;
+	@include zero;
+	list-style: none;
+	#slid-img-chan li {
+		display: block;
+		width: $cont;
+		height: 60rem;
+		@include zero;
+		float: left;
+		position: relative;
+	}
+}
+#myOwnSlider li {
+	display: block;
+	width: $cont;
+	height: 60rem;
+	@include zero;
+	float: left;
+	position: relative;
+}
