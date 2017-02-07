@@ -104,6 +104,8 @@ body {
 .fa-chevron-right {
 	@include forchevron;
 	@include fading;
+	font-family: 'FontAwesome';
+    src: url('../font/fontawesome-webfont.eot');
 }
 .chevron-hover:hover {
 	cursor: pointer;
@@ -114,6 +116,8 @@ body {
 .fa-chevron-left {
 	@include forchevron;
 	@include fading;
+	font-family: 'FontAwesome';
+    src: url('../font/fontawesome-webfont.eot');
 }
 a {
 	text-align: center;
