@@ -46,6 +46,7 @@ body {
       background-color: blue;
       position: relative; }
       .main-cont .slider-frame .slider-display #slid-img-chan {
+        width: 120rem;
         display: block;
         margin: 0;
         padding: 0;

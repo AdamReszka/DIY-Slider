@@ -40,6 +40,7 @@ body {
 			background-color: blue;
 			position: relative;
 			#slid-img-chan {
+				width: $cont;
 				display: block;
 				@include zero;
 				position: relative;
