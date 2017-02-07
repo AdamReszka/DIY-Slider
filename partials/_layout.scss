@@ -2,13 +2,14 @@ html {
 	font-size: 62.5%;
 }
 body {
-	@include lrauto;
+	@include zero;
 	background-color: $mainbgr;
 }
 .main-cont {
 	width: $cont;
 	height: 108rem;
 	@include zero;
+	@include lrauto;
 	background-color: #fff;
 	padding: 0;
 	@include mainshadow;
