@@ -8,12 +8,12 @@ body {
 
 .main-cont {
   width: 120rem;
-  height: 108rem;
+  min-height: 131.5rem;
   margin: 0;
   padding: 0;
   margin-left: auto;
   margin-right: auto;
-  background-color: #fff;
+  background-color: #01373B;
   padding: 0;
   -webkit-box-shadow: 0px 1px 11px 1px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 0px 1px 11px 1px rgba(0, 0, 0, 0.6);
@@ -22,7 +22,7 @@ body {
     width: 120rem;
     margin: 0;
     height: 5rem;
-    background-color: #000;
+    background-color: #01373B;
     display: flex;
     align-items: center;
     justify-content: center; }
@@ -68,12 +68,11 @@ body {
   margin: 0;
   padding-top: 1.8rem;
   padding-left: 1.8rem;
-  background-color: #fff;
+  background-color: #01373B;
   box-sizing: border-box; }
   .slider-nav .thumb {
     width: 17.9rem;
     height: 17.9rem;
-    background-color: #fff;
     display: inline-block;
     margin-right: 0;
     padding: 0;
@@ -175,5 +174,39 @@ a {
   padding: 0;
   float: left;
   position: relative; }
+
+.description {
+  width: 120rem;
+  height: 38rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0; }
+  .description h2 {
+    margin: 1rem 0 0 0;
+    padding: 2rem 0;
+    color: #fff;
+    font-family: 'Pattaya', sans-serif;
+    text-align: center;
+    font-size: 5rem; }
+  .description .about {
+    font-family: 'Noto Sans', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0 3rem;
+    font-size: 2.2rem;
+    text-align: justify;
+    line-height: 3.4rem; }
+
+footer {
+  margin: 0;
+  width: 120rem;
+  height: 6rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  footer .foot-desc {
+    color: #036369;
+    margin: 0;
+    font-size: 1.4rem; }
 
 /*# sourceMappingURL=main.css.map */

@@ -7,17 +7,17 @@ body {
 }
 .main-cont {
 	width: $cont;
-	height: 108rem;
+	min-height: 131.5rem;
 	@include zero;
 	@include lrauto;
-	background-color: #fff;
+	background-color: $headbgr;
 	padding: 0;
 	@include mainshadow;
 	header {
 		width: $cont;
 		margin: 0;
 		height: 5rem;
-		background-color: #000;
+		background-color: $headbgr;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -65,12 +65,11 @@ body {
 	margin: 0;
 	padding-top: 1.8rem;
 	padding-left: 1.8rem;
-	background-color: #fff;
+	background-color: $headbgr;
 	box-sizing: border-box;
 	.thumb {
 		width: 17.9rem;
 		height: 17.9rem;
-		background-color: #fff;
 		display: inline-block;
 		margin-right: 0;
 		padding: 0;
@@ -150,4 +149,42 @@ a {
 	@include zero;
 	float: left;
 	position: relative;
+}
+.description {
+	width: $cont;
+	height: 38rem;
+	background-color: rgba(0,0,0,0.3);
+	margin: 0;
+	h2 {
+		margin: 1rem 0 0 0;
+		padding: 2rem 0;
+		color: #fff;
+		font-family: 'Pattaya', sans-serif;
+		text-align: center;
+		font-size: 5rem;
+
+	}
+	.about {
+		font-family: 'Noto Sans', sans-serif;
+		color: #fff;
+		margin: 0;
+		padding: 0 3rem;
+		font-size: 2.2rem;
+		text-align: justify;
+		line-height: 3.4rem;
+	}
+}
+footer {
+	margin: 0;
+	width: $cont;
+	height: 6rem;
+	background-color: rgba(0,0,0,0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.foot-desc {
+		color: $mainbgr;
+		margin: 0;
+		font-size: 1.4rem;
+	} 
 }
